@@ -1,0 +1,42 @@
+:root {
+  --font-size--small: calc((14/16) * 1rem); /* 14px */
+  --font-size--default: calc((16/16) * 1rem); /* 16px */
+  --font-size--large: calc((24/16) * 1rem); /* 24px */
+  --font-size--extralarge: calc((32/16) * 1rem); /* 32px */
+}
+
+body{
+  /* margin: 5px;
+  padding: 5px;
+  border: 1px solid blue; */
+
+  margin-left: 10px;
+}
+
+*{
+  text-transform: lowercase;
+  font-family: Helvetica, sans-serif !important;
+}
+
+a{
+  text-decoration: none;
+  color: blue;
+}
+
+a:hover{
+  border-bottom: 1px dashed blue;
+}
+
+h1{
+  font-size: var(--font-size--extralarge);
+  margin-bottom: 8px;
+}
+
+h2{
+  font-size: var(--font-size--large);
+  margin-bottom: 8px;
+}
+
+article{
+  margin-bottom: 8px;
+}
